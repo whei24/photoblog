@@ -1,0 +1,679 @@
+body{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    font-size: 14px;
+    padding:0 40px 0 40px;
+     box-shadow: 1px 2px 23px -6px rgba(0,0,0,0.52); 
+
+}
+
+nav div ul{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+   
+    
+}
+
+nav div ul li{
+    padding:7px 0 7px 0;
+    
+}
+
+nav div ul li a {
+    color: #000000;
+    text-decoration: none;
+
+
+}
+nav div ul li  {
+     margin: 0px 5px 0px 5px;
+    list-style-type: none;
+
+}
+nav .logo{
+
+  margin-top: auto;
+  margin-bottom: auto;
+  
+}
+
+.hero .container  img{
+    width: 100%;
+    height: 80vh;
+    margin-top: 60px;  
+
+}
+
+.hero .image-slider {
+    display: flex;
+    margin-top: -5px;
+    width: 100%;
+
+}
+.hero .image-slider img{
+    width:7.76%;
+    height: 105px;
+
+
+}
+main{
+    padding: 0px 200px 0 200px;
+}
+.hero{
+    height: 95vh;
+}
+
+section{
+    
+    padding: 100px 300px 40px 300px;
+}
+
+.Container-about-me{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.Container-about-me div{
+    margin: 70px; 
+} 
+.Container-about-me div h1{
+    font-size: 60px;
+
+}
+.Container-about-me div p{
+    font-size: 20px;
+    color: #877F7F;
+    font-weight: 100;
+    font-size: 25px;
+
+}
+.about-me{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+ span{
+    font-weight: 100;
+
+}
+.Container-about-me div p:nth-child(3){
+    border-left: solid;
+    padding-left: 15px;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 25px;
+    color: #877F7F;
+}
+
+.Recent-photo{
+    background-color: #222222;
+}
+.Recent-photo h2{
+    color: white;
+}
+.Recent-photo input{
+    
+    background-color: #222222;
+    border: solid;
+    border-width: 1px;
+    border-color: white;
+    color: white;
+    padding: 10px 50px 10px 50px;
+}
+.Recent-photo .container-recentPhotos{
+    text-align: center;
+    padding-top: 50px;
+    
+
+}
+.Recent-photo .container-recentPhotos a {
+    color: white;
+    text-decoration: none;
+    margin: 0 40px 0 40px;
+}
+
+
+.row img{
+    width: 400px;
+    margin: 20px;
+    height: 250px;
+}
+.col{
+    display: flex;
+    justify-content: center;
+}
+.show-more{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 20px;
+   
+}
+.container-myblog{
+    display: flex;
+    justify-content: center;
+    
+}
+.card{
+    background-color: white;
+    width: 100%;
+    margin: 30px;
+    box-shadow: -1px 2px 5px 2px rgba(0,0,0,0.39);
+
+
+}
+.card-image img{
+    width: 100%;
+}
+.time{
+    color:#C0C0C0 ;
+    font-weight: 100;
+}
+
+.card-title,.card-Content{
+    padding: 0 30px 0 30px;
+    text-align: center;
+}
+.bg-gray{
+    background-color:#E5E5E5 ;
+}
+.fa-star{
+    color:#FFCE31 ;  
+   
+}
+.testimonial{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+   padding-bottom: 100px;
+   
+}
+.container-testimonial{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.testimonial img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    margin: 20px;
+
+}
+.testimonial div:nth-child(2) img{
+    width: 150px;
+}
+footer{
+    background-color:#222222;
+    color:#FFFFFF;
+    padding: 0;
+    margin: 0;
+   
+  
+    text-align: center;
+}
+.row-fot img{
+    width: 100px;
+    margin: 2px;
+    height: 50px;
+
+}
+.container-foot{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid;
+    border-color: rgb(175, 175, 175);
+    border-width: 0.5px;
+    padding:40px 400px 40px 400px ;
+
+}
+.contacts .fab{
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+    margin-right: 10px;
+
+    
+   
+}
+footer li {
+    list-style: none;
+    
+}
+.contacts{
+    text-align: left;
+     
+   
+}
+.contacts p{
+    text-align: center;
+}
+.contacts li {
+    margin: 10px;
+}
+footer .logo{
+    text-align: left;
+    width: 33%;
+}
+.Copywrite p{
+    padding: 20px;
+    margin: 0;
+}
+
+/* this part is for the shop */
+.container-shop{
+    padding: 0 100px 0 100px ;
+    color: white;
+
+    
+}
+.hero2 img{
+    width: 100%;
+    height: 600px;
+   
+}
+.hero2 {
+    width: 100%;
+    height: 50vh;
+    padding: 0;
+    margin: 0;
+}
+
+.container-shop form{
+    border-top: solid;
+    border-width: 1px;
+    padding: 40px;
+    border-color: rgb(133, 129, 129);
+    text-align: right;
+}
+.container-shop form select{
+    background-color: #222222;
+    color: white;
+    border-color: #222222;
+}
+.container-shop form .search{
+    border-color: rgb(133, 129, 129);
+    border-right: 0;
+    margin: 0;
+    margin-right: -10px;
+    
+
+}
+.container-shop form label{
+    font-size: 20px;
+    font-weight: 300;
+}
+.fa-search{
+    background-color: #222222;
+    color: white;
+    
+}
+.container-shop form button{
+    background-color: #2222;
+    padding: 10px;
+    border: solid;
+    border-color: rgb(133, 129, 129);
+    border-width: 1px;
+    margin: 0;
+    border-left: 0;
+    
+   
+}
+section .pagination a {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin:5px;
+    font-size: 17px;
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+  }
+  
+
+ 
+  .pagination a{
+    border-radius: 50%;
+    background-color:#c4c4c483 ;
+
+  }
+  .pagination{
+     justify-content: center;
+     display: flex;
+  }
+
+  /* css for portfolio */
+
+  .hero3{
+      width: 100%;
+      background-image: url('../image/portfolio-hero.png');
+      height: 70vh;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+    
+  }
+  .hero3 img{
+      width: 100%;
+  }
+  .text-hero3{
+      padding: 300px;
+      color: white;  
+      width: 30%;
+     
+  }
+  .text-hero3 h1{
+      font-size: 90px;
+      margin: 0;
+      padding: 0;
+      z-index: 1;
+  }
+  .text-hero3 p{
+      font-size: 20px;
+      text-align: left;
+      font-weight: 100;
+      margin: 0;
+      padding: 0;
+      z-index: 1;
+      
+  }
+  #overlay {
+    position: fixed; 
+    
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 0; /* Specify a stack order in case you're using a different order for other elements */
+   
+  }
+.speciality{
+    display: flex;
+    justify-content: center;
+}
+.fashion{
+    margin: 20px;
+    text-align: center;
+}
+.specialty-container{
+    background-color: #222222;
+    color: white;
+    text-align: center;
+}
+.Recent-portfolio{
+    color:black;
+}
+.Recent-portfolio .show-more input {
+    
+    background-color: white;
+    border: solid;
+    border-width: 3px;
+    border-color: black;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 50px 10px 50px;
+}
+.Recent-portfolio  .container-recentPhotos {
+    text-align: center;
+}
+.Recent-portfolio  .container-recentPhotos a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900 ;
+    margin: 20px;
+}
+
+.container-aboutme{
+    display: flex;
+    padding: 20px;
+    
+
+}
+.container-aboutme div:nth-child(2){
+    text-align: left;
+    margin-left: 60px;
+}
+.container-aboutme ul li{
+    list-style-type: none;
+    margin-top: 10px;
+}
+.container-aboutme ul{
+    margin: 0;
+    padding: 0;
+}
+.container-aboutme label {
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+progress{
+    border-radius: 0;
+    background-color: black;
+    width: 400px;
+}
+.container-aboutme h2{
+    margin: 0;
+}
+.container-aboutme{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.star{
+    display: flex;
+    justify-content: center;
+}
+
+/* for contacts */
+
+iframe {
+    width:500px;
+    height:500px;
+}
+
+.container-contact{
+    display: flex;
+   
+}
+.container-contact h2{
+    text-align: left;
+}
+
+.Contacts{
+    background-color: #222222;
+    color: white;
+    border-bottom: solid;
+    border-color: rgb(194, 194, 194);
+    border-width: 1px;
+    
+}
+.container-contact div {
+    width: 70%;
+    margin: 20px;
+   
+}
+.container-contact form input{
+    padding: 20px;
+    background-color: #222222;
+    margin: 5px;
+    border-left: 0;
+    border-right: 0;
+    width: 41%;
+
+}
+.container-contact form  textarea{
+    background-color: #222222;
+    color:rgb(169, 169, 169) ;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 98%;
+    margin-top: 20px;
+}
+.container-contact form button{
+    background-color: #EBB85E;
+    color: white;
+    font-weight: 100;
+    padding: 10px 30px 10px 30px;
+    margin-top: 20px;
+   
+}
+.container-contact p{
+    font-weight: 200;
+    color: rgb(191, 190, 190);
+}
+
+/* for blog css */
+
+.blog{
+    background-color: #222222;
+    color: white;
+    border-bottom: solid;
+    border-color: rgb(155, 155, 155);
+    border-width: 1px;
+    margin-top: 40px;
+   
+}
+
+.container-blog form{
+    border-top: solid;
+    border-width: 1px;
+    padding: 30px;
+    border-color: rgb(133, 129, 129);
+    text-align: right;
+}
+.container-blog form select{
+    background-color: #222222;
+    color: white;
+    border-color: #222222;
+}
+.container-blog form .search{
+    border-color: rgb(133, 129, 129);
+    border-right: 0;
+    margin-right: -10px;
+   background-color: #222222;
+   padding: 9px 50px 9px 50px;
+
+    
+
+}
+.container-blog form label{
+    font-size: 20px;
+    font-weight: 300;
+}
+.fa-search{
+    background-color: #222222;
+    color: white;
+    
+}
+.container-blog form button{
+    background-color: #2222;
+    padding: 10px;
+    border: solid;
+    border-color: rgb(133, 129, 129);
+    border-width: 1px;
+    margin: 0;
+    border-left: 0;  
+}
+.blog-cards .row{
+    display: flex;
+
+}
+.blog-cards .card{
+    background-color: #222222;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(155, 155, 155);
+   width: 100%;
+
+}
+.blog-cards .card img {
+    width: 100%;
+    padding: 0%;
+    margin: 0;
+    height: 170px;
+}
+.blog-cards .card .content{
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    height:200px ;
+}
+.blog-cards .card .content p{
+    font-size: 14px;
+    font-weight: 200;
+    color: rgb(146, 144, 144);
+}
+.card-foot{
+    border: solid;
+    border-width: 1px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+    border-color: rgb(155, 155, 155);
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    font-size: 12px;
+    font-weight: 200;
+
+
+
+}
+
+.row .card  time,.fa-calendar-alt ,.fa-tag  {
+    color:#cfeb2e9c ;
+    font-size: 11px;
+}
+.card .content span{
+    color:#cfeb2e9c ;
+    font-size: 11px;
+
+}
+.blog-card .row .card time{
+    color:#cfeb2e9c ;
+    font-size: 11px;
+}
+h4{
+    padding: 0%;
+    margin: 5px;
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
